@@ -1,11 +1,11 @@
-import Button from "components/Button";
+import Menu from "components/Menu";
 import React from "react";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Button text="Procurar Perfil" />
+      <Menu />
     </div>
   );
 }

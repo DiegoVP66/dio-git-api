@@ -1,0 +1,36 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.home-container h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.home-container p{
+    font-size: 20px;
+}
+
+.home-img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-img img{
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+@media(min-width:992px){
+    .home-img{
+        width: 100%;
+        max-width: 500px;
+    }
+}

@@ -1,0 +1,39 @@
+.search-card-container {
+    width: 100%;
+    border-radius: 10%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dark-color);
+    font-family: sans-serif;
+}
+
+.name-container{
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid  var(--primary-color);
+}
+.search-card-container ul li{
+    background-color: var(--bg-button-color);
+    color: var(--primary-color);
+}
+
+.search-card-container ul li span{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img-container img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.link{
+    word-wrap: break-word;
+}

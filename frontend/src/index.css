@@ -8,10 +8,26 @@ body {
     color: var(--primary-color);
 }
 
+body.dark-mode {
+	background-color: var( --dark-color);
+	color:var(--primary-color);
+}
+
 :root {
     --primary-color:#fefefefe;
+    --secondary-color:#5a42a9;
     --bg-button-color: #373E47;
-    --bg-color:#22272e;   
+    --bg-color:#22272e; 
+    --dark-color:#000; 
+}
+
+a{
+    text-decoration: none; 
+    color: var(----dark-color);
+}
+
+ul{
+    list-style: none;
 }
 
 

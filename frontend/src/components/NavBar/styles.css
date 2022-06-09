@@ -1,0 +1,26 @@
+.nav-menu-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+@media(min-width: 768px){
+    .nav-menu-container{
+        margin-left: 100px;
+    }
+}
+@media(min-width: 991px){
+    .nav-menu-container{
+        margin-left: 200px;
+    }
+}
+@media(min-width: 1200px){
+    .nav-menu-container{
+        margin-left: 320px;
+    }
+}
+@media(min-width: 1400px){
+    .nav-menu-container{
+        margin-left: 600px;
+    }
+}

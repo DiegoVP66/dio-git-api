@@ -1,0 +1,19 @@
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 100vh;
+}
+
+.menu-card input {
+    width: 200px;
+    height: 40px;
+    margin-top: 27px;
+}
+
+.menu{
+    display: flex;
+    margin-bottom: 30px; 
+}

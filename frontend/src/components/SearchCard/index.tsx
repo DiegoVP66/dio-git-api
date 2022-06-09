@@ -29,7 +29,7 @@ const SearchCard = ({ user }: Props) => {
           <span>Seguidores:</span> {user.followers}
         </li>
         <li className="list-group-item">
-          <span>Seguindo:</span> {user.followers}
+          <span>Seguindo:</span> {user.following}
         </li>
       </ul>
     </div>

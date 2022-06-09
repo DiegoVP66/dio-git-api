@@ -5,8 +5,10 @@ type Props = {
 };
 const Button = ({ text }: Props) => {
   return (
-    <div>
-      <button>{text}</button>
+    <div className=" btn btn-container">
+      <button type="submit" className="btn-style">
+        <h4>{text}</h4>
+      </button>
     </div>
   );
 };

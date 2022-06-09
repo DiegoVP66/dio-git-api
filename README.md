@@ -5,6 +5,7 @@
 ### APP - Procurar um perfil do GitHub
 
 #### O Desafio consiste em criar um frontend totalmente componentizado com React.
+#### Foram feitos alguns testes de components com Jest.
 
 ## Tecnologias
  - ReactJs
